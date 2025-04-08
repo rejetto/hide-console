@@ -1,8 +1,12 @@
 exports.name = "Hide console"
 exports.description = "As soon as this plugin starts, the console window is hidden. Stop plugin to make it appear again."
-exports.version = 1.2
+exports.version = 1.3
 exports.apiRequired = 1
 exports.repo = "rejetto/hide-console"
+exports.changelog = [
+    { "version": 1.3, "message": "fix compatibility with HFS 0.57 / NodeJS 20" },
+    { "version": 1.2, "message": "avoid accidentally running 2 instances" }
+]
 
 // thanks to https://github.com/hetrodoo/node-hide-console-window
 
